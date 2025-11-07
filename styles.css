@@ -1,0 +1,44 @@
+/* Demo logo style using provided background image */
+html,body { height: 100%; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  /* background image from user */
+  background: url('https://th.bing.com/th/id/OIP.7cRYFyLoDEDh4sRtM73vvwHaDg?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3') center/cover no-repeat fixed;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255,255,255,0.08);
+  padding: 18px 24px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.logo-mark {
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,255,255,0.7));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.logo-text {
+  margin: 0;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
